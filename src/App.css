@@ -1,0 +1,32 @@
+.background {
+    height: 100vh;    
+    width: 100vw;
+    overflow: auto;
+    background: linear-gradient(to bottom right, #000000, rgb(128, 48, 48));
+    /* background: linear-gradient(to bottom right, #0575E6, #00F260); */
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'raleway-light';
+    color: white;
+    cursor: default;
+    padding: 20px 5px 0 5px;
+}
+
+.navbar-title {
+    align-self: center;
+    font-size: 2rem;
+}
+
+.navbar-watching-currency {
+    align-self: center;
+    margin-right: 10px;
+    border: 2px solid;
+    border-radius: 0.2rem;
+    padding: 5px;
+    cursor: pointer;
+}

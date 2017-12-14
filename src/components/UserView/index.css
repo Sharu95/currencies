@@ -1,0 +1,49 @@
+/* Styles */
+.user-view {
+    height: 90vh;
+    padding-top: 30px;
+    overflow: scroll;
+}
+
+.rates-container {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.rate {
+    margin-top: 100vh;
+    cursor: default;
+    border: 2px solid; 
+    border-radius: 0.5rem;
+    width: 210px;
+    text-align: center;
+    color: white;
+    font-family: 'raleway-light';
+    padding: 10px;
+    margin: 0 10px 20px 10px;
+}
+
+.rate:hover {
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.rate-title {
+    font-size: 2.5rem;
+    font-family: 'raleway';
+}
+
+.rate-values {
+    font-size: 1.2rem;
+}
+
+.flag {
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+.title-separator {
+    border-bottom: 1px solid;
+    margin: 5px 20px 10px 20px;
+}

@@ -1,0 +1,56 @@
+.config-view {
+    height: auto;
+    padding: 15%;
+    font-family: 'raleway-regular';
+}
+
+.tags-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.config-tag {
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.3rem;
+    padding: 4px;
+    text-align: center;
+    width: 70px;
+}
+
+.config-action {
+    margin-top: 10%;
+    width: 100px;
+    float: right;
+}
+
+.config-title {
+    cursor: default;
+    font-size: 2rem;
+    /* border-bottom: 1px solid white; */
+    margin-bottom: 3px;
+    color: white;
+}
+
+.config-tag:hover {
+    transform: scale(1.1);
+}
+
+.config-tag.selected {
+    background-color: rgba(255,255,255, 0.5);
+}
+
+
+/* .config-title {
+    align-self: center;
+    width: 20%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.title-underline {
+    width: auto;
+    border-bottom: 2px solid black;
+} */
